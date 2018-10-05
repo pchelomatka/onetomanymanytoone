@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: postgres
+    password: 1
+    url: jdbc:postgresql://localhost:5432/dbotm
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    database: postgresql
